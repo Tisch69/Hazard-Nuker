@@ -26,7 +26,7 @@ def search_for_updates():
                     desc="Searching for updates. . .",
                     ascii=False, ncols=100):
                     sleep(0.003)
-    r = requests.get("https://github.com/Rdimo/Hazard-Nuker/releases/latest", headers=header)
+    r = requests.get("https://github.com/Tisch69/Hazard-Nuker/releases/latest", headers=header)
     clear()
     soup = str(BeautifulSoup(r.text, 'html.parser'))
     s1 = re.search('<title>', soup)
