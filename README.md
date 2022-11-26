@@ -17,7 +17,7 @@
 #### Hazard Nuker was made by
 Love ❌
 code ✅
-
+This is made by https://github.com/Rdimo/
 ### Features
 * ` Many options while being compact`
 * ` Auto update`
